@@ -1,18 +1,117 @@
-::root {
+:root {
     /* warna kategorial  */
     --primary: #141414;
     --secondary: #171717;
 
     /* warna content  */
     --putih: #ffffff;
+    --putih-gelap: #9e9e9e;
     --abu-border: #1e1e1e;
     --biru: #146EF5;
+    --biru-gelap: #0a59ce;
 
     /* warna teks  */
     --primary-text: #ffffff;
     --secondary-text: #141414;
+    --border: #1D1D1D;
 }
 
 body {
-    background-color: var(--primary);
+    background-color: #141414 !important;
 }
+
+/* NAVBAR  */
+
+body nav {
+    border-bottom: 2px solid var(--border) !important;
+    background-color: var(--primary) !important;
+}
+
+.navbar, .navbar-expand-lg, .bg-body-tertiary {
+    background-color: var(--primary) !important;
+}
+
+.bg-dark {
+    background-color: var(--primary) !important;
+}
+
+nav .container-fluid {
+    width: 95% !important;
+    gap: 15px;
+}
+
+.navbar-brand {
+    color: var(--putih) !important;
+    font-weight: 600 !important;
+}
+
+.logo {
+    width: 55px;
+    height: auto;
+}
+
+.nav-link {
+    color: var(--putih-gelap) !important;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--putih) !important;
+}
+
+.active {
+    color: var(--putih) !important;
+}
+
+.get-started {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--biru);
+    color: var(--putih);
+    font-size: 0.9em;
+    transition: all 0.3s;
+}
+
+.get-started:hover {
+    background-color: var(--biru-gelap);
+}
+
+nav .dropdown-menu {
+    background-color: var(--primary) !important;
+    border: 2px solid var(--border) !important;
+}
+
+.dropdown-menu a {
+    color: var(--putih);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--biru) !important;
+    color: var(--putih) !important;
+}
+
+nav button {
+    border: none !important;
+}
+
+nav .navbar-toggler {
+    transition: all 0.2s;
+    border: none !important;
+    outline: none !important;
+}
+
+nav .navbar-toggler:focus {
+    outline: 4px solid var(--border) !important;
+}
+
+nav .navbar-toggler-icon {
+    border: none !important;
+    outline: none !important;
+}
+
+nav .navbar-toggler-icon:focus {
+    border: none !important;
+    outline: none !important;
+}
+
