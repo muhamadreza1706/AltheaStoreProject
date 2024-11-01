@@ -62,9 +62,63 @@
     </nav>
 
     {{-- FOOTER  --}}
-    {{-- <i class="bi bi-linkedin"></i>
-    <i class="bi bi-instagram"></i>
-    <i class="bi bi-twitter"></i> --}}
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Top Section: Logo and Social Icons -->
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="{{ asset('images/althea-logo.png') }}" alt="althea-logo" />
+                    {{-- <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>                 --}}
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Links Section -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Integrations</a>
+                    <a href="#">API</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="#">Help Center</a>
+                    <a href="#">Community</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Documentation</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Security</a>
+                    <a href="#">Compliance</a>
+                </div>
+            </div>
+
+            {{-- Copyright section  --}}
+            <div class="footer-bottom">
+                <p>@2024 PT Althea Tech Solutions. All Rights Reserved.</p>
+                <p>Version</p>
+            </div>
+        </div>
+    </footer>
     
     {{-- JAVASCRIPT --}}
     <script src="../js/app.js"></script>
